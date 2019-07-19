@@ -45,11 +45,30 @@ else  if ( gender == 'male' &&day == 1) {
     else  if ( gender == 'male' &&day == 5) {
         document.getElementById('demo').innerHTML=( 'your Akan Name is '+ maleNames[5]);
     }
-    else {
+    else  if ( gender == 'male' &&day == 6) {
         document.getElementById('demo').innerHTML=( 'your Akan Name is '+ maleNames[6]);
     }
-    
-
+    else if ( gender == 'female' &&day == 0) {
+        document.getElementById('demo').innerHTML=( 'your Akan Name is '+ femaleNames[0]);
+    }
+    else if ( gender == 'female' &&day == 1) {
+        document.getElementById('demo').innerHTML=( 'your Akan Name is '+ femaleNames[1]);
+    }
+    else if ( gender == 'female' &&day == 2) {
+        document.getElementById('demo').innerHTML=( 'your Akan Name is '+ femaleNames[2]);
+    }
+    else if ( gender == 'female' &&day == 3) {
+        document.getElementById('demo').innerHTML=( 'your Akan Name is '+ femaleNames[3]);
+    }
+    else if ( gender == 'female' &&day == 4) {
+        document.getElementById('demo').innerHTML=( 'your Akan Name is '+ femaleNames[4]);
+    }
+    else if ( gender == 'female' &&day == 5) {
+        document.getElementById('demo').innerHTML=( 'your Akan Name is '+ femaleNames[5]);
+    }
+    else if ( gender == 'female' &&day == 6) {
+        document.getElementById('demo').innerHTML=( 'your Akan Name is '+ femaleNames[6]);
+    }
 
 
 
