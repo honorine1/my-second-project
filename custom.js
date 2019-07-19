@@ -16,9 +16,9 @@ var maleNames = ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
 var femaleNames = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
 var dayOfWeek = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 var day=( ( (cc/4) -2*cc-1) + ((5*yy/4) ) + ((26*(mm+1)/10)) + DD ) % 7;
-var dates=day.toFixed();
-console.log(cc);
+var dates=(day.toFixed());
 
+console.log(dates);
 var gender= document.querySelector('input[name="gender"]:checked').value
 // if(gender == '' && input == '' ){
 //     document.getElementById('demo').innerHTML=('please enter values!');
