@@ -2,24 +2,64 @@
 function akanName()
 {
 var input=document.getElementById("bday").value;
-// var maleNames = ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
-// var femaleNames = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
-// var dayOfWeek = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
-// var gender=["male","female"];
-var CC=d.getDate();
-var YY=d.getFullYear();
-var MM=d.getMonth();
+var maleNames = ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
+var femaleNames = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
+var dayOfWeek = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+var dd=d.getDate();
+var yy=d.getFullYear();
+var mm=d.getMonth();
+mm=mm+1;
 var d =new Date(input);
-var DD;
 var century=((yy/100)+1);
-CC=century.toFloat();
+cc = parseFloat(century);
+// if(document.getElementById("female").checked)
+// {
+//     var gender=document.getElementById("female");
+// }
+// else{
+//    var gender= document.getElementById("male");  
+// }
+var day=( ( (cc/4) -2*cc-1) + ((5*yy/4) ) + ((26*(mm+1)/10)) + dd ) % 7;
+d=parseInt(day);
+
 var gender= document.querySelector('input[name="gender"]:checked').value;
+if(input == '' && gender == '')
+{
+    document.getElementById('demo').innerHTML=('please enter values!');
+}
+else  if ( gender == 'male' &&day == 0) {
+    document.getElementById('demo').innerHTML=( 'your Akan Name is '+ maleNames[0]);
+}
+else  if ( gender == 'male' &&day == 1) {
+    document.getElementById('demo').innerHTML=( 'your Akan Name is '+ maleNames[1]);
+}
+    else  if ( gender == 'male' &&day == 2) {
+        document.getElementById('demo').innerHTML=( 'your Akan Name is '+ maleNames[2]);
+    }
+    else  if ( gender == 'male' &&day == 3) {
+        document.getElementById('demo').innerHTML=( 'your Akan Name is '+ maleNames[3]);
+    }
+    else  if ( gender == 'male' &&day == 4) {
+        document.getElementById('demo').innerHTML=( 'your Akan Name is '+ maleNames[4]);
+    }
+    else  if ( gender == 'male' &&day == 5) {
+        document.getElementById('demo').innerHTML=( 'your Akan Name is '+ maleNames[5]);
+    }
+    else {
+        document.getElementById('demo').innerHTML=( 'your Akan Name is '+ maleNames[6]);
+    }
+    
+
+
+
+
+
 
 
 if((document.getElementById("gender")).checked && (document.getElementById("bd").checked)){
 
 };
-console.log(CC);
+console.log()
 
 
 
