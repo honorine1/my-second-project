@@ -1,2 +1,15 @@
 # my-second-project
-this app will be used to calculate the exact birthday and give you a Ghananian nickname according to the day of the week you were born.by fill in the form found on the home page and submitting
+
+## Project Description
+
+This application will  provide a Ghananian nickname according to the user's gender.In addition it will provide the user's exact day of birth by inputing his/her birthday and choosing his/her gender using a form appeared on a home page.
+### AUthor's information
+
+##### Names: Honorine Uwurukundo
+
+### Instruction
+
+.open up our webpage
+.fill the form which is appearing on:You will be required to enter the birthday and choose gender
+.After all,click on Submit button
+.your akan name will be displayed!

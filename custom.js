@@ -16,46 +16,46 @@ var dates=(day.toFixed());
 // console.log(dates);
 var gender= document.querySelector('input[name="gender"]:checked').value
   if ( gender == 'male' && dates == 0) {
-    document.getElementById('demo').innerHTML=( 'your Akan Name is '+ maleNames[0]);
+    document.getElementById('demo').innerHTML=( 'you born on' +' '+ dayOfWeek[0] +','+'your Akan Name is '+ maleNames[0]);
     }
     else  if ( gender == 'male' && dates == 1) {
-    document.getElementById('demo').innerHTML=( 'your Akan Name is '+ maleNames[1]);
+    document.getElementById('demo').innerHTML=( 'you born on' + ' '+ dayOfWeek[1] +','+'your Akan Name is '+ maleNames[1]);
     }
     else  if ( gender == 'male' && dates == 2) {
-        document.getElementById('demo').innerHTML=( 'your Akan Name is '+ maleNames[2]);
+        document.getElementById('demo').innerHTML=( 'you born on' + ' '+ dayOfWeek[2] + ','+'your Akan Name is '+ maleNames[2]);
     }
     else  if ( gender == 'male' && dates == 3) {
-        document.getElementById('demo').innerHTML=( 'your Akan Name is '+ maleNames[3]);
+        document.getElementById('demo').innerHTML=('you born on' +' '+ dayOfWeek[3]  +','+ 'your Akan Name is '+ maleNames[3]);
     }
     else  if ( gender == 'male' && dates == 4) {
-        document.getElementById('demo').innerHTML=( 'your Akan Name is '+ maleNames[4]);
+        document.getElementById('demo').innerHTML=( 'you born on' + ' '+ dayOfWeek[4] + ','+'your Akan Name is '+ maleNames[4]);
     }
     else  if ( gender == 'male' && dates==5) {
-     document.getElementById('demo').innerHTML=( 'your Akan Name is '+ maleNames[5]);
+     document.getElementById('demo').innerHTML=( 'you born on' +' '+ dayOfWeek[5 ] + ','+'your Akan Name is '+ maleNames[5]);
     }
     else  if ( gender == 'male' && dates == 6) {
-        document.getElementById('demo').innerHTML=( 'your Akan Name is '+ maleNames[6]);
+        document.getElementById('demo').innerHTML=('you born on' +' '+ dayOfWeek[6] + ','+ 'your Akan Name is '+ maleNames[6]);
     }
     else if ( gender == 'female' && dates == 0) {
-        document.getElementById('demo').innerHTML=( 'your Akan Name is '+ femaleNames[0]);
+        document.getElementById('demo').innerHTML=( 'you born on' +' '+ dayOfWeek[0] + ','+'your Akan Name is '+ femaleNames[0]);
     }
     else if ( gender == 'female' && dates == 1) {
-        document.getElementById('demo').innerHTML=( 'your Akan Name is '+ femaleNames[1]);
+        document.getElementById('demo').innerHTML=( 'you born on' +' '+ dayOfWeek[1]  + ','+'your Akan Name is '+ femaleNames[1]);
     }
     else if ( gender == 'female' && dates== 2) {
-        document.getElementById('demo').innerHTML=( 'your Akan Name is '+ femaleNames[2]);
+        document.getElementById('demo').innerHTML=('you born on' +' '+ dayOfWeek[2] + ','+ 'your Akan Name is '+ femaleNames[2]);
     }
     else if ( gender == 'female' && dates == 3) {
-        document.getElementById('demo').innerHTML=( 'your Akan Name is '+ femaleNames[3]);
+        document.getElementById('demo').innerHTML=( 'you born on' +' '+ dayOfWeek[3] + ','+'your Akan Name is '+ femaleNames[3]);
     }
     else if ( gender == 'female' && dates == 4) {
-        document.getElementById('demo').innerHTML=( 'your Akan Name is '+ femaleNames[4]);
+        document.getElementById('demo').innerHTML=( 'you born on' +' '+ dayOfWeek[4] + ','+'your Akan Name is '+ femaleNames[4]);
     }
     else if ( gender == 'female' && dates == 5) {
-        document.getElementById('demo').innerHTML=( 'your Akan Name is '+ femaleNames[5]);
+        document.getElementById('demo').innerHTML=('you born on' +' '+ dayOfWeek[5] + ','+ 'your Akan Name is '+ femaleNames[5]);
     }
     else if ( gender == 'female' && dates == 6) {
-        document.getElementById('demo').innerHTML=( 'your Akan Name is '+ femaleNames[6]);
+        document.getElementById('demo').innerHTML=( 'you born on'+' '+ dayOfWeek[6] + ','+'your Akan Name is '+ femaleNames[6]);
     }
 }
 
