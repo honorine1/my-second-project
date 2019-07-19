@@ -1,15 +1,11 @@
 
-function akanName()
-{
-
-
+function akanName(){
 var input=document.getElementById("bday").value;
 var d =new Date(input);
 var DD=d.getDate();
 var yy=d.getFullYear();
 var mm=d.getMonth();
 mm=mm+1;
-
 var century=((yy/100)+1);
 cc = parseFloat(century);
 var maleNames = ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
@@ -17,18 +13,14 @@ var femaleNames = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
 var dayOfWeek = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 var day=( ( (cc/4) -2*cc-1) + ((5*yy/4) ) + ((26*(mm+1)/10)) + DD ) % 7;
 var dates=(day.toFixed());
-
-console.log(dates);
+// console.log(dates);
 var gender= document.querySelector('input[name="gender"]:checked').value
-// if(gender == '' && input == '' ){
-//     document.getElementById('demo').innerHTML=('please enter values!');
-// }
   if ( gender == 'male' && dates == 0) {
     document.getElementById('demo').innerHTML=( 'your Akan Name is '+ maleNames[0]);
-}
-else  if ( gender == 'male' && dates == 1) {
+    }
+    else  if ( gender == 'male' && dates == 1) {
     document.getElementById('demo').innerHTML=( 'your Akan Name is '+ maleNames[1]);
-}
+    }
     else  if ( gender == 'male' && dates == 2) {
         document.getElementById('demo').innerHTML=( 'your Akan Name is '+ maleNames[2]);
     }
