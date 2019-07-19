@@ -9,7 +9,7 @@ This application will  provide a Ghananian nickname according to the user's gend
 
 ### Instruction
 
-.open up our webpage
+.open up our webpage:
 .fill the form which is appearing on:You will be required to enter the birthday and choose gender
 .After all,click on Submit button
 .your day of birth and  akan name will be displayed!
@@ -25,9 +25,13 @@ This application will  provide a Ghananian nickname according to the user's gend
 
 contact me on:
 
-|Tel               |  +250784478114            |
-|Email             |  uwurukundoh@gmail.com    |
-|facebook          |  Uwurukundo Honorine      |
+
+|Email               | uwurukundoh@gmail.com |
+|--------------------|-----------------------|
+| phone              |0784478114             |
+|facebook            |uwurukundo Honorine    |
+|twitter             |honoryne               |  
+      
 
 
 ### License and Copyright
