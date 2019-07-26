@@ -9,7 +9,7 @@ This application will  provide a Ghananian nickname according to the user's gend
 
 ### Instruction
 
- open up our webpage:https://github.com/honorine1/my-second-project
+ open up our webpage: https://honorine1.github.io/my-second-project/
 <!--.fill the form which is appearing on:You will be required to enter the birthday and choose gender
 .After all,click on Submit button
 .your day of birth and  akan name will be displayed! -->
